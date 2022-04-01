@@ -208,6 +208,12 @@ body.light-mode .video-bg:before {
           flex-direction: column;
 }
 
+@media (max-width: 600px) {
+  .app .DataStudent {
+    height: 370px;
+  }
+}
+
 .app .DataStudent .DataBody {
   width: 400px;
 }
@@ -280,8 +286,8 @@ body.light-mode .video-bg:before {
 
 @media (max-width: 768px) {
   .app .DataStudent .DataBody .LoginForm form input {
-    width: 90%;
-    margin-left: 17px;
+    width: 79%;
+    margin-left: 45px;
   }
 }
 
@@ -299,7 +305,7 @@ body.light-mode .video-bg:before {
 
 @media (max-width: 768px) {
   .app .DataStudent .LoginBtn {
-    padding: 13px;
+    padding: 40px;
   }
 }
 
@@ -398,6 +404,12 @@ body.light-mode .video-bg:before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .header-profile {
+    height: 50px;
+  }
 }
 
 .header-profile h1 {
