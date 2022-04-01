@@ -156,13 +156,15 @@ body.light-mode .video-bg:before {
     text-align: center;
     color: white;
     font-weight: 400;
-   padding-top: 150px;
+   padding-top: 0px;
     font-size: 13px;
   }
   .DataStudent {
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     .DataBody {
       width: 400px;
